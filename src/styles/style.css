@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  header {
+    background-color: #2b81fa;
+  }
+  header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+  }
+  header ul li {
+    padding: 0.5rem 1rem;
+  }
+  header ul li a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .search input, .search button {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border: 3px solid #2b81fa;
+  }
+  .search button {
+    background-color: #2b81fa;
+    color: white;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #cecece;
+  }
+  
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pictures .picture {
+    padding: 1rem;
+    width: 400px;
+  }
+  .pictures .picture .imageContainer {
+    overflow: hidden;
+    height: 40vh;
+  }
+  .pictures .picture .imageContainer img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  .pictures .picture .imageContainer img:hover {
+    transform: scale(1.25);
+  }
