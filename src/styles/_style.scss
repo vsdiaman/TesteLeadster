@@ -1,19 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: 'Ubuntu', sans-serif;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  ul {
-    list-style-type: none;
-  }
-  @import "../components/header/styles";
-  @import "../components/search/styles";
-  @import "../components/footer/styles";
-  @import "../components/pictures/styles";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #00a8ff;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+@import "../components/header/styles";
+@import "../components/search/styles";
+@import "../components/footer/styles";
+@import "../components/pictures/styles";

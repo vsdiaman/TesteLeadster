@@ -1,0 +1,15 @@
+header {
+  background-color: rgb(255, 255, 255);
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    li {
+      padding: 0.5rem 1rem;
+      a {
+        font-size: 1.5rem;
+        color: black;
+      }
+    }
+  }
+}

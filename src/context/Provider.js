@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 //import PropTypes from 'prop-types';
 //import Context from './Context';
 import Pictures from '../components/pictures/Pictures';
-import Search from '../components/search/Search';
+import { Navbar } from 'reactstrap';
 
 
 function Provider() {
@@ -30,7 +30,7 @@ useEffect(() =>{
 
     return(
         <div>
-            <Search
+            <Navbar
                 search={() => {
                   search(searchURL);
                 }}
@@ -41,8 +41,6 @@ useEffect(() =>{
             return <Pictures photos={img}
             />;
           })}
-        </div>
-        <div>
         </div>
         </div>
     )
