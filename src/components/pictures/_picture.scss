@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 .pictures {
   display: flex;
   flex-wrap: wrap;
@@ -21,3 +23,17 @@
     }
   }
 }
+
+div {
+  font-family: "Anton", sans-serif;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);

@@ -1,5 +1,6 @@
+
 import React from "react";
-import Provider from "./context/Provider";
+import Provider from "./context/APIcontext";
 import "../src/styles/style.css";
 import Homepage from "./pages/Homepage";
 import Footer from "./components/footer/Footer";
@@ -10,7 +11,6 @@ import {
   Route
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (

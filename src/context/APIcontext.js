@@ -29,7 +29,7 @@ useEffect(() =>{
 }, []);
 
     return(
-        <div>
+        <div>            
             <Navbar
                 search={() => {
                   search(searchURL);
