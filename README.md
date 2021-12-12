@@ -29,9 +29,19 @@ To see the **web**, click here: [Go Site](https://upbeat-shirley-3845d7.netlify.
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Netlify](https://www.netlify.com/)
+- [Linux-Ubuntu](https://ubuntu.com/)
 
 
 
 ---
 Made with 💜 by VITOR DIAMANTINO 👋 [See my linkedin](https://www.linkedin.com/in/vitordiamantino/)
 <br>
+
+## 🖥️ Configuração
+1- Para instalar as dependências:
+
+yarn
+
+2- Para iniciar a aplicação:
+
+yarn start
