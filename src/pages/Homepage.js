@@ -1,15 +1,14 @@
 import React from "react";
+import { Navbar } from "reactstrap";
 import Footer from "../components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
-import Provider from "../context/APIcontext";
+import Provider from "../Services/api.js";
 
-const Homepage = () => {
-  return (    
+function Homepage() {
+  return (
     <Provider>
       <Navbar />
       <Footer />
     </Provider>
-
   );
 };
 

@@ -1,85 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Corinthia:wght@400;700&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
-  font-family: "Anton", sans-serif;
-  line-height: 1.5;
+    font-family: "Anton", sans-serif;
+    line-height: 1.5;
 }
+
 .footer {
-  padding-top: 3rem;
-  color: #ffffff;
-  cursor: pointer;
-  background-image: url(https://www.blogdacompanhia.com.br/app/webroot/files/uploads/ckfinder/images/shutterstock_558890911.jpg);
-  background-size: 100%;
+    padding-top: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+    background-image: url(https://www.blogdacompanhia.com.br/app/webroot/files/uploads/ckfinder/images/shutterstock_558890911.jpg);
+    background-size: 100%;
 }
 
 .footer-bottom {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 ul li a,
 ul li {
-  color: #ffffff;
-  transition: all 0.3s ease;
-  font-family: "Anton", sans-serif;
-  font-family: "Bree Serif", serif;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.8;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    font-family: "Anton", sans-serif;
+    font-family: "Bree Serif", serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
 }
 
 ul li a:hover,
 ul li:hover {
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  padding-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 8px;
 }
 
 #h4-1,
 #h4-2,
 #h4-3,
 #h4-4 {
-  font-size: 30px;
-  font-family: "Anton", sans-serif;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-  box-sizing: border-box;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
 }
 
 #facebook,
 #instagram,
 #linkedin,
 #twitch {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
 
 #facebook:hover,
 #instagram:hover,
 #linkedin:hover,
 #twitch:hover {
-  color: #24252b;
-  background-color: #ff640b;
-  box-shadow: 3px 3px 10px #333;
-  font-size: 28px;
+    color: #24252b;
+    background-color: #ff640b;
+    box-shadow: 3px 3px 10px #333;
+    font-size: 28px;
 }
 
+
 /*Responsivo*/
+
 @media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
+
 @media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
+    .footer-col {
+        width: 100%;
+    }
 }

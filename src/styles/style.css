@@ -1,172 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Corinthia:wght@400;700&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-}
-.curva {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar {
-  background-color: #ffffff;
-  height: 80px;
-}
-navbar ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 3rem;
-}
-navbar ul li {
-  padding: 0.5rem 1rem;
-}
-navbar ul li a {
-  font-size: 1.5rem;
-  color: white;
+    background-color: #ffffff;
+    height: 100px;
 }
 
-body .curva {
-  display: flex;
-  top: 900px;
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
 }
 
-.back-input {
-  display: flex;
+.navbar ul li {
+    padding: 0.5rem 1rem;
 }
 
-/*.search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 0;
-  transform: translate(-50%, -50%);
-  background: #353b48;
-  border-radius: 40px;
+.navbar ul li a {
+    font-size: 1.5rem;
+    color: white;
 }
-.search input,
-.search button {
-  font-size: 1.5rem;
-  padding: 0.25rem;
-  border: 3px solid #2b81fa;
-}
-.search button {
-  background-color: #2b81fa;
-  color: white;
-}
-*/
+
 input::placeholder {
-  opacity: 0.5;
-  color: gray;
-  font-family: "Montserrat";
+    opacity: 0.5;
+    color: gray;
+    font-family: "Montserrat";
 }
 
 .pictures {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .pictures .picture {
-  padding: 2rem;
+    padding: 4rem;
 }
+
 .pictures .picture .imageContainer {
-  overflow: hidden;
-  height: 60vh;
-  width: 45vh;
-  box-shadow: 3px 3px 10px #333;
-  background-size: 50px, 130px, auto;
-  border-radius: 8px;
+    overflow: hidden;
+    height: 60vh;
+    width: 45vh;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.253);
+    border: solid 1px rgb(180, 180, 180);
 }
+
 .pictures .picture .imageContainer img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  transition: all 0.1s ease;
-}
-.pictures .picture .imageContainer img:hover {
-  transform: scale(1.25);
+    width: 95%;
+    height: 85%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
-.search-box {
-  display: flex;
-  padding: 10px;
-  border-radius: 6px;
-  box-shadow: 5px, 5px #00689c;
-  width: 85px;
-  height: 100px;
-  align-items: center;
+.pictures .picture .imageContainer img:hover {    
+    opacity: 0.7;
 }
 
-#svg-fundo {
-  display: flex;
-  width: 100%;
+.imageContainer {
+    background-color: rgba(231, 231, 231, 0.527);
 }
 
-.search-btn {
-  padding: 0 6px;
-  cursor: pointer;
-  display: inline-block;
-  text-align: center;
-  color: rgb(255, 205, 205);
-  background-color: #2978ff;
-  border: 0;
-  border-radius: inherit;
-  font-size: 1.6rem;
-  flex-shrink: 0;
-  transition: 1s;
-  width: 85px;
-  height: 40px;
-  align-items: center;
-}
-.search-txt {
-  padding: 1rem;
-  border: 0;
-  border-radius: inherit;
-  flex-grow: 1;
-  font-size: 1rem;
-  font-family: "Poppins";
-  height: 40px;
+#name-photor {
+    font-size: 23px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bree Serif", serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
 }
 
-.search-box:hover > .search-btn {
-  background: #0760fa5b;
+body {
+    font-family: "Anton", sans-serif;
+    line-height: 1.5;
 }
 
-.home:hover {
-  background: #0760fa;
+.footer {
+    padding-top: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+    background-image: url(https://www.blogdacompanhia.com.br/app/webroot/files/uploads/ckfinder/images/shutterstock_558890911.jpg);
+    background-size: 100%;
 }
 
-.about:hover {
-  background: red;
+.footer-bottom {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
-/*
-.search-box:hover > .search-txt {
-  width: 300px;
-  padding: 0 6px;
-}
-.search-box:hover > .search-btn {
-  background: white;
+a{
+    color: #ffffff;
+    transition: all 0.3s ease;
+    font-family: "Anton", sans-serif;
+    font-family: "Bree Serif", serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+    letter-spacing: 3px;
 }
 
-.search-box:hover > i .btn {
-  font-size: 10px;
-  background: yellow;
-}*/
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+ul li {
+    color: #ffffff;
+    transition: all 0.3s ease;
+    font-family: "Anton", sans-serif;
+    font-family: "Bree Serif", serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+}
+
+ul li:hover
+ {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+#h4-1,
+#h4-2,
+#h4-3,
+#h4-4 {
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+#facebook,
+#instagram,
+#linkedin,
+#twitch {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+#facebook:hover,
+#instagram:hover,
+#linkedin:hover,
+#twitch:hover {
+    color: #24252b;
+    background-color: #ff640b;
+    box-shadow: 3px 3px 10px #333;
+    font-size: 28px;
+}
+
+
+/*Responsivo*/
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

@@ -1,39 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+.pictures .picture {
+    padding: 4rem;
+}
 
-.pictures {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  .picture {
-    padding: 1rem;
-    width: 400px;
-    .imageContainer {
-      overflow: hidden;
-      height: 40vh;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: all 0.3s ease;
-        &:hover {
-          transform: scale(1.25);
-        }
-      }
-    }
-  }
+.pictures .picture .imageContainer {
+    overflow: hidden;
+    height: 60vh;
+    width: 45vh;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.253);
+    border: solid 1px rgb(180, 180, 180);
+}
+
+.pictures .picture .imageContainer img {
+    width: 95%;
+    height: 85%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.pictures .picture .imageContainer img:hover {
+    transform: scale(1.03);
+
+    
+}
+
+#name-photor {
+    font-size: 23px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bree Serif", serif;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
 }
 
 div {
-  font-family: "Anton", sans-serif;
-  font-family: "Fuzzy Bubbles", cursive;
-  font-family: "Poppins", sans-serif;
+    font-family: "Anton", sans-serif;
+    font-family: "Fuzzy Bubbles", cursive;
+    font-family: "Poppins", sans-serif;
 }
 
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px,
+$container-max-widths: ( sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1320px,
 );
